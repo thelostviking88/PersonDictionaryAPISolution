@@ -1,0 +1,278 @@
+2020-06-15 00:02:19.430 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 422
+2020-06-15 00:02:19.398 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 00:02:19.430 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 00:02:19.496 +04:00 [INF] Hosting environment: Development
+2020-06-15 00:02:19.499 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 00:02:19.617 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 00:02:19.617 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:02:19.627 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 00:02:19.674 +04:00 [INF] Request finished in 249.3104ms 405 
+2020-06-15 00:02:19.978 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:02:22.167 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:03:18.814 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 422
+2020-06-15 00:03:18.824 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:03:18.828 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:03:18.906 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:03:20.806 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:03:20.806 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:03:20.950 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 60935.8535ms
+2020-06-15 00:03:20.950 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 2108.1586ms
+2020-06-15 00:03:20.962 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:03:20.965 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:03:20.984 +04:00 [INF] Request finished in 2169.7847ms 400 application/problem+json; charset=utf-8
+2020-06-15 00:03:20.987 +04:00 [INF] Request finished in 61564.3645ms 400 application/problem+json; charset=utf-8
+2020-06-15 00:03:24.360 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 422
+2020-06-15 00:03:24.366 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:03:24.372 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:03:24.406 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:03:26.876 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:03:26.883 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 2503.2319ms
+2020-06-15 00:03:26.894 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:03:26.909 +04:00 [INF] Request finished in 2550.1138ms 400 application/problem+json; charset=utf-8
+2020-06-15 00:03:50.858 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 00:03:50.894 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 422
+2020-06-15 00:03:50.894 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 00:03:50.952 +04:00 [INF] Hosting environment: Development
+2020-06-15 00:03:50.961 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 00:03:51.066 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:03:51.066 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 00:03:51.077 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 00:03:51.111 +04:00 [INF] Request finished in 225.3716ms 405 
+2020-06-15 00:03:51.485 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:03:53.089 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:04:05.944 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:04:06.140 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 14635.1442ms
+2020-06-15 00:04:06.162 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:04:06.180 +04:00 [INF] Request finished in 15294.9694ms 400 application/problem+json; charset=utf-8
+2020-06-15 00:05:37.479 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 420
+2020-06-15 00:05:37.485 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:05:37.489 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:05:37.553 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:05:40.009 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:05:40.013 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 2520.6801ms
+2020-06-15 00:05:40.017 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:05:40.024 +04:00 [INF] Request finished in 2545.8757ms 400 application/problem+json; charset=utf-8
+2020-06-15 00:06:03.598 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 422
+2020-06-15 00:06:03.603 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:06:03.607 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:06:03.632 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:06:08.263 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:06:08.268 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 4658.285ms
+2020-06-15 00:06:08.275 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:06:08.278 +04:00 [INF] Request finished in 4681.215ms 400 application/problem+json; charset=utf-8
+2020-06-15 00:06:19.097 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 419
+2020-06-15 00:06:19.102 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:06:19.106 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 00:06:19.118 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 00:06:19.141 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 00:06:19.146 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 34.7333ms
+2020-06-15 00:06:19.152 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 00:06:19.159 +04:00 [INF] Request finished in 62.4701ms 400 application/problem+json; charset=utf-8
+2020-06-15 12:56:44.328 +04:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'API.MiddleWare.ErrorLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-06-15 13:08:17.474 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 13:08:17.710 +04:00 [INF] Hosting environment: Development
+2020-06-15 13:08:17.718 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 13:08:17.711 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 13:08:17.855 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 13:08:17.863 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 13:08:17.873 +04:00 [INF] HTTP GET /Person responded 405 in 15.7655 ms
+2020-06-15 13:08:17.970 +04:00 [INF] Request finished in 268.5601ms 405 
+2020-06-15 13:08:19.137 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 417
+2020-06-15 13:08:19.144 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:08:19.299 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 13:08:21.749 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 13:08:39.997 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 13:08:40.118 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 20740.8868ms
+2020-06-15 13:08:40.125 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:08:40.132 +04:00 [INF] HTTP POST /Person responded 400 in 20988.0728 ms
+2020-06-15 13:08:40.147 +04:00 [INF] Request finished in 21010.7263ms 400 application/problem+json; charset=utf-8
+2020-06-15 13:09:54.482 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 417
+2020-06-15 13:09:54.506 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:09:54.520 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 13:09:54.609 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 13:09:58.714 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 13:09:58.720 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 4195.1289ms
+2020-06-15 13:09:58.722 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:09:58.730 +04:00 [INF] HTTP POST /Person responded 400 in 4223.9267 ms
+2020-06-15 13:09:58.742 +04:00 [INF] Request finished in 4261.1569ms 400 application/problem+json; charset=utf-8
+2020-06-15 13:14:03.217 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 13:14:03.268 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 13:14:03.317 +04:00 [INF] Hosting environment: Development
+2020-06-15 13:14:03.320 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 13:14:03.437 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 13:14:03.442 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 13:14:03.455 +04:00 [INF] HTTP GET /Person responded 405 in 15.3208 ms
+2020-06-15 13:14:03.491 +04:00 [INF] Request finished in 234.0593ms 405 
+2020-06-15 13:14:07.956 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 417
+2020-06-15 13:14:07.964 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:14:08.106 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 13:14:09.521 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 13:14:10.366 +04:00 [ERR] error
+2020-06-15 13:14:16.572 +04:00 [ERR] error
+2020-06-15 13:14:28.032 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 13:14:28.144 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 20017.3374ms
+2020-06-15 13:14:28.148 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:14:28.154 +04:00 [INF] HTTP POST /Person responded 400 in 20189.889 ms
+2020-06-15 13:14:28.167 +04:00 [INF] Request finished in 20210.6084ms 400 application/problem+json; charset=utf-8
+2020-06-15 13:30:30.428 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 13:30:30.651 +04:00 [INF] Hosting environment: Development
+2020-06-15 13:30:30.460 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44339/Person application/json 417
+2020-06-15 13:30:30.651 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 13:30:30.732 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:30:37.642 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 13:30:37.654 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 13:30:37.674 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 13:30:37.697 +04:00 [INF] HTTP GET /Person responded 405 in 28.8211 ms
+2020-06-15 13:30:37.852 +04:00 [INF] Request finished in 210.4604ms 405 
+2020-06-15 13:30:37.899 +04:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] Create(API.Models.PersonPostDto) on controller API.Controllers.PersonController (API).
+2020-06-15 13:30:40.913 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 13:30:42.516 +04:00 [ERR] error: FirstName - ააb :- სახელი უნდა შეიცავდეს მარტო ქართულ ან მარტო ლათინურ 2-50 სიმბოლოს
+2020-06-15 13:30:46.947 +04:00 [ERR] error: PrivateNumber - 11asd111111 :- პირადი ნომერი უნდა იყოს 11-ნიშნა რიცხვი
+2020-06-15 13:30:48.190 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-15 13:30:48.310 +04:00 [INF] Executed action API.Controllers.PersonController.Create (API) in 10388.7485ms
+2020-06-15 13:30:48.321 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.Create (API)'
+2020-06-15 13:30:48.325 +04:00 [INF] HTTP POST /Person responded 400 in 17599.1686 ms
+2020-06-15 13:30:48.338 +04:00 [INF] Request finished in 17886.6698ms 400 application/problem+json; charset=utf-8
+2020-06-15 19:58:22.758 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 19:58:22.818 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 19:58:22.907 +04:00 [INF] Hosting environment: Development
+2020-06-15 19:58:22.911 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 19:58:23.032 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 19:58:23.041 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 19:58:23.067 +04:00 [INF] HTTP GET /Person responded 405 in 23.3468 ms
+2020-06-15 19:58:23.117 +04:00 [INF] Request finished in 309.3713ms 405 
+2020-06-15 19:58:52.543 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:44339/Person/37  
+2020-06-15 19:58:52.548 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.GetById (API)'
+2020-06-15 19:58:52.696 +04:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] GetById(Int32) on controller API.Controllers.PersonController (API).
+2020-06-15 19:58:54.161 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 19:59:22.150 +04:00 [INF] Executed DbCommand (25,236ms) [Parameters=[@__personId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CityId], [t].[DateOfBirth], [t].[FirstName], [t].[Gender], [t].[LastName], [t].[Picture], [t].[PrivateNumber], [t].[Id0], [t].[Name], [t0].[Id], [t0].[ConnectedPersonId], [t0].[ConnectionType], [t0].[PersonId], [t0].[Id0], [t0].[CityId], [t0].[DateOfBirth], [t0].[FirstName], [t0].[Gender], [t0].[LastName], [t0].[Picture], [t0].[PrivateNumber], [t0].[Id1], [t0].[Name], [t0].[Id2], [t0].[Number], [t0].[PersonId0], [t0].[Type], [p3].[Id], [p3].[Number], [p3].[PersonId], [p3].[Type]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[CityId], [p].[DateOfBirth], [p].[FirstName], [p].[Gender], [p].[LastName], [p].[Picture], [p].[PrivateNumber], [c].[Id] AS [Id0], [c].[Name]
+    FROM [Person] AS [p]
+    INNER JOIN [City] AS [c] ON [p].[CityId] = [c].[Id]
+    WHERE [p].[Id] = @__personId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[Id], [p0].[ConnectedPersonId], [p0].[ConnectionType], [p0].[PersonId], [p1].[Id] AS [Id0], [p1].[CityId], [p1].[DateOfBirth], [p1].[FirstName], [p1].[Gender], [p1].[LastName], [p1].[Picture], [p1].[PrivateNumber], [c0].[Id] AS [Id1], [c0].[Name], [p2].[Id] AS [Id2], [p2].[Number], [p2].[PersonId] AS [PersonId0], [p2].[Type]
+    FROM [PersonConnection] AS [p0]
+    INNER JOIN [Person] AS [p1] ON [p0].[ConnectedPersonId] = [p1].[Id]
+    INNER JOIN [City] AS [c0] ON [p1].[CityId] = [c0].[Id]
+    LEFT JOIN [Phone] AS [p2] ON [p1].[Id] = [p2].[PersonId]
+) AS [t0] ON [t].[Id] = [t0].[PersonId]
+LEFT JOIN [Phone] AS [p3] ON [t].[Id] = [p3].[PersonId]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id], [t0].[Id0], [t0].[Id1], [t0].[Id2], [p3].[Id]
+2020-06-15 19:59:22.310 +04:00 [INF] Executing ObjectResult, writing value of type 'API.Models.PersonDto'.
+2020-06-15 19:59:22.608 +04:00 [INF] Executed action API.Controllers.PersonController.GetById (API) in 29901.2207ms
+2020-06-15 19:59:22.612 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.GetById (API)'
+2020-06-15 19:59:22.615 +04:00 [INF] HTTP GET /Person/37 responded 200 in 30067.2764 ms
+2020-06-15 19:59:22.629 +04:00 [INF] Request finished in 30086.5492ms 200 application/json; charset=utf-8
+2020-06-15 19:59:56.376 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 19:59:56.566 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 19:59:56.577 +04:00 [INF] Hosting environment: Development
+2020-06-15 19:59:56.579 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 19:59:56.672 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 19:59:56.680 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 19:59:56.695 +04:00 [INF] HTTP GET /Person responded 405 in 18.1607 ms
+2020-06-15 19:59:56.737 +04:00 [INF] Request finished in 178.7354ms 405 
+2020-06-15 20:00:44.530 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:44339/Person/37  
+2020-06-15 20:00:44.537 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.GetById (API)'
+2020-06-15 20:00:44.668 +04:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] GetById(Int32) on controller API.Controllers.PersonController (API).
+2020-06-15 20:00:46.055 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 20:00:47.816 +04:00 [INF] Executed DbCommand (175ms) [Parameters=[@__personId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CityId], [t].[DateOfBirth], [t].[FirstName], [t].[Gender], [t].[LastName], [t].[Picture], [t].[PrivateNumber], [t].[Id0], [t].[Name], [t0].[Id], [t0].[ConnectedPersonId], [t0].[ConnectionType], [t0].[PersonId], [t0].[Id0], [t0].[CityId], [t0].[DateOfBirth], [t0].[FirstName], [t0].[Gender], [t0].[LastName], [t0].[Picture], [t0].[PrivateNumber], [t0].[Id1], [t0].[Name], [t0].[Id2], [t0].[Number], [t0].[PersonId0], [t0].[Type], [p3].[Id], [p3].[Number], [p3].[PersonId], [p3].[Type]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[CityId], [p].[DateOfBirth], [p].[FirstName], [p].[Gender], [p].[LastName], [p].[Picture], [p].[PrivateNumber], [c].[Id] AS [Id0], [c].[Name]
+    FROM [Person] AS [p]
+    INNER JOIN [City] AS [c] ON [p].[CityId] = [c].[Id]
+    WHERE [p].[Id] = @__personId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[Id], [p0].[ConnectedPersonId], [p0].[ConnectionType], [p0].[PersonId], [p1].[Id] AS [Id0], [p1].[CityId], [p1].[DateOfBirth], [p1].[FirstName], [p1].[Gender], [p1].[LastName], [p1].[Picture], [p1].[PrivateNumber], [c0].[Id] AS [Id1], [c0].[Name], [p2].[Id] AS [Id2], [p2].[Number], [p2].[PersonId] AS [PersonId0], [p2].[Type]
+    FROM [PersonConnection] AS [p0]
+    INNER JOIN [Person] AS [p1] ON [p0].[ConnectedPersonId] = [p1].[Id]
+    INNER JOIN [City] AS [c0] ON [p1].[CityId] = [c0].[Id]
+    LEFT JOIN [Phone] AS [p2] ON [p1].[Id] = [p2].[PersonId]
+) AS [t0] ON [t].[Id] = [t0].[PersonId]
+LEFT JOIN [Phone] AS [p3] ON [t].[Id] = [p3].[PersonId]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id], [t0].[Id0], [t0].[Id1], [t0].[Id2], [p3].[Id]
+2020-06-15 20:00:47.969 +04:00 [INF] Executing ObjectResult, writing value of type 'API.Models.PersonDto'.
+2020-06-15 20:00:48.217 +04:00 [INF] Executed action API.Controllers.PersonController.GetById (API) in 3533.6975ms
+2020-06-15 20:00:48.221 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.GetById (API)'
+2020-06-15 20:00:48.224 +04:00 [INF] HTTP GET /Person/37 responded 200 in 3686.5219 ms
+2020-06-15 20:00:48.234 +04:00 [INF] Request finished in 3704.4717ms 200 application/json; charset=utf-8
+2020-06-15 20:03:40.091 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 20:03:40.123 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 20:03:40.189 +04:00 [INF] Hosting environment: Development
+2020-06-15 20:03:40.193 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 20:03:40.282 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 20:03:40.288 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 20:03:40.301 +04:00 [INF] HTTP GET /Person responded 405 in 14.2223 ms
+2020-06-15 20:03:40.339 +04:00 [INF] Request finished in 221.9202ms 405 
+2020-06-15 20:05:14.074 +04:00 [INF] Application is shutting down...
+2020-06-15 20:05:33.570 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-15 20:05:33.621 +04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/Person  
+2020-06-15 20:05:33.668 +04:00 [INF] Hosting environment: Development
+2020-06-15 20:05:33.671 +04:00 [INF] Content root path: C:\Users\TLV\source\repos\PersonDictionaryAPISolution\API
+2020-06-15 20:05:33.750 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-06-15 20:05:33.757 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-06-15 20:05:33.768 +04:00 [INF] HTTP GET /Person responded 405 in 14.4435 ms
+2020-06-15 20:05:33.808 +04:00 [INF] Request finished in 193.5502ms 405 
+2020-06-15 20:07:06.223 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:44339/Person/46/connections/1 application/json 411
+2020-06-15 20:07:06.254 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.GetConnectionsByType (API)'
+2020-06-15 20:07:06.382 +04:00 [INF] Route matched with {action = "GetConnectionsByType", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[API.Models.ConnectionDto]] GetConnectionsByType(Int32, System.String) on controller API.Controllers.PersonController (API).
+2020-06-15 20:07:07.848 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 20:07:28.419 +04:00 [INF] Executed DbCommand (144ms) [Parameters=[@__personId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CityId], [t].[DateOfBirth], [t].[FirstName], [t].[Gender], [t].[LastName], [t].[Picture], [t].[PrivateNumber], [t].[Id0], [t].[Name], [t0].[Id], [t0].[ConnectedPersonId], [t0].[ConnectionType], [t0].[PersonId], [t0].[Id0], [t0].[CityId], [t0].[DateOfBirth], [t0].[FirstName], [t0].[Gender], [t0].[LastName], [t0].[Picture], [t0].[PrivateNumber], [t0].[Id1], [t0].[Name], [t0].[Id2], [t0].[Number], [t0].[PersonId0], [t0].[Type], [p3].[Id], [p3].[Number], [p3].[PersonId], [p3].[Type]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[CityId], [p].[DateOfBirth], [p].[FirstName], [p].[Gender], [p].[LastName], [p].[Picture], [p].[PrivateNumber], [c].[Id] AS [Id0], [c].[Name]
+    FROM [Person] AS [p]
+    INNER JOIN [City] AS [c] ON [p].[CityId] = [c].[Id]
+    WHERE [p].[Id] = @__personId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[Id], [p0].[ConnectedPersonId], [p0].[ConnectionType], [p0].[PersonId], [p1].[Id] AS [Id0], [p1].[CityId], [p1].[DateOfBirth], [p1].[FirstName], [p1].[Gender], [p1].[LastName], [p1].[Picture], [p1].[PrivateNumber], [c0].[Id] AS [Id1], [c0].[Name], [p2].[Id] AS [Id2], [p2].[Number], [p2].[PersonId] AS [PersonId0], [p2].[Type]
+    FROM [PersonConnection] AS [p0]
+    INNER JOIN [Person] AS [p1] ON [p0].[ConnectedPersonId] = [p1].[Id]
+    INNER JOIN [City] AS [c0] ON [p1].[CityId] = [c0].[Id]
+    LEFT JOIN [Phone] AS [p2] ON [p1].[Id] = [p2].[PersonId]
+) AS [t0] ON [t].[Id] = [t0].[PersonId]
+LEFT JOIN [Phone] AS [p3] ON [t].[Id] = [p3].[PersonId]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id], [t0].[Id0], [t0].[Id1], [t0].[Id2], [p3].[Id]
+2020-06-15 20:07:28.547 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.ConnectionDto, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-06-15 20:07:28.806 +04:00 [INF] Executed action API.Controllers.PersonController.GetConnectionsByType (API) in 22412.8759ms
+2020-06-15 20:07:28.812 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.GetConnectionsByType (API)'
+2020-06-15 20:07:28.818 +04:00 [INF] HTTP GET /Person/46/connections/1 responded 200 in 22563.5498 ms
+2020-06-15 20:07:28.836 +04:00 [INF] Request finished in 22613.3674ms 200 application/json; charset=utf-8
+2020-06-15 20:07:53.171 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:44339/Person/46/ application/json 411
+2020-06-15 20:07:53.184 +04:00 [INF] Executing endpoint 'API.Controllers.PersonController.GetById (API)'
+2020-06-15 20:07:53.221 +04:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[API.Models.PersonDto] GetById(Int32) on controller API.Controllers.PersonController (API).
+2020-06-15 20:07:53.284 +04:00 [INF] Entity Framework Core 3.1.5 initialized 'PersonDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-06-15 20:07:53.322 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__personId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CityId], [t].[DateOfBirth], [t].[FirstName], [t].[Gender], [t].[LastName], [t].[Picture], [t].[PrivateNumber], [t].[Id0], [t].[Name], [t0].[Id], [t0].[ConnectedPersonId], [t0].[ConnectionType], [t0].[PersonId], [t0].[Id0], [t0].[CityId], [t0].[DateOfBirth], [t0].[FirstName], [t0].[Gender], [t0].[LastName], [t0].[Picture], [t0].[PrivateNumber], [t0].[Id1], [t0].[Name], [t0].[Id2], [t0].[Number], [t0].[PersonId0], [t0].[Type], [p3].[Id], [p3].[Number], [p3].[PersonId], [p3].[Type]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[CityId], [p].[DateOfBirth], [p].[FirstName], [p].[Gender], [p].[LastName], [p].[Picture], [p].[PrivateNumber], [c].[Id] AS [Id0], [c].[Name]
+    FROM [Person] AS [p]
+    INNER JOIN [City] AS [c] ON [p].[CityId] = [c].[Id]
+    WHERE [p].[Id] = @__personId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[Id], [p0].[ConnectedPersonId], [p0].[ConnectionType], [p0].[PersonId], [p1].[Id] AS [Id0], [p1].[CityId], [p1].[DateOfBirth], [p1].[FirstName], [p1].[Gender], [p1].[LastName], [p1].[Picture], [p1].[PrivateNumber], [c0].[Id] AS [Id1], [c0].[Name], [p2].[Id] AS [Id2], [p2].[Number], [p2].[PersonId] AS [PersonId0], [p2].[Type]
+    FROM [PersonConnection] AS [p0]
+    INNER JOIN [Person] AS [p1] ON [p0].[ConnectedPersonId] = [p1].[Id]
+    INNER JOIN [City] AS [c0] ON [p1].[CityId] = [c0].[Id]
+    LEFT JOIN [Phone] AS [p2] ON [p1].[Id] = [p2].[PersonId]
+) AS [t0] ON [t].[Id] = [t0].[PersonId]
+LEFT JOIN [Phone] AS [p3] ON [t].[Id] = [p3].[PersonId]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id], [t0].[Id0], [t0].[Id1], [t0].[Id2], [p3].[Id]
+2020-06-15 20:07:53.347 +04:00 [INF] Executing ObjectResult, writing value of type 'API.Models.PersonDto'.
+2020-06-15 20:07:53.359 +04:00 [INF] Executed action API.Controllers.PersonController.GetById (API) in 132.0409ms
+2020-06-15 20:07:53.365 +04:00 [INF] Executed endpoint 'API.Controllers.PersonController.GetById (API)'
+2020-06-15 20:07:53.370 +04:00 [INF] HTTP GET /Person/46/ responded 200 in 185.7744 ms
+2020-06-15 20:07:53.378 +04:00 [INF] Request finished in 207.8726ms 200 application/json; charset=utf-8
